@@ -1,0 +1,37 @@
+@import "./font.css";
+
+:root {
+  --light: ;
+  --dark: ;
+  --warn: ;
+  --success: ;
+  --danger: ;
+  --primary: ;
+}
+
+/* BASIC CONFIG */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/* BASIC CONFIG */
+
+.container {
+  max-width: px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
