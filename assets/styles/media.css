@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  .main__container {
+    grid-template-columns: 1fr;
+  }
+  .cards__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .header__nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    max-width: 380px;
+  }
+  .cards__grid {
+    grid-template-columns: 1fr;
+  }
+}
